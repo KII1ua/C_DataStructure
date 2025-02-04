@@ -111,8 +111,8 @@ build main: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.o
 
 build cmake_object_order_depends_target_Out: phony || CMakeFiles/Out.dir
 
-build CMakeFiles/Out.dir/linkedlist.c.o: C_COMPILER__Out_unscanned_Debug /Users/sungyoon/Desktop/c_datastructure/linkedlist.c || cmake_object_order_depends_target_Out
-  DEP_FILE = CMakeFiles/Out.dir/linkedlist.c.o.d
+build CMakeFiles/Out.dir/stack.c.o: C_COMPILER__Out_unscanned_Debug /Users/sungyoon/Desktop/c_datastructure/stack.c || cmake_object_order_depends_target_Out
+  DEP_FILE = CMakeFiles/Out.dir/stack.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Out.dir
   OBJECT_FILE_DIR = CMakeFiles/Out.dir
@@ -125,7 +125,7 @@ build CMakeFiles/Out.dir/linkedlist.c.o: C_COMPILER__Out_unscanned_Debug /Users/
 #############################################
 # Link the executable Out
 
-build Out: C_EXECUTABLE_LINKER__Out_Debug CMakeFiles/Out.dir/linkedlist.c.o
+build Out: C_EXECUTABLE_LINKER__Out_Debug CMakeFiles/Out.dir/stack.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Out.dir
   POST_BUILD = :

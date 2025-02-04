@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 add_executable(c_datastructure main.c)
 
 add_executable(main main.c)
-add_executable(Out linkedlist.c)
+add_executable(Out stack.c)

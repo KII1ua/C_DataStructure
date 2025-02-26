@@ -55,6 +55,12 @@ build CMakeFiles/c_datastructure.dir/main.c.o: C_COMPILER__c_datastructure_unsca
   OBJECT_DIR = CMakeFiles/c_datastructure.dir
   OBJECT_FILE_DIR = CMakeFiles/c_datastructure.dir
 
+build CMakeFiles/c_datastructure.dir/stack_imple_linkedlist.c.o: C_COMPILER__c_datastructure_unscanned_Debug /Users/sungyoon/Desktop/c_datastructure/stack_imple_linkedlist.c || cmake_object_order_depends_target_c_datastructure
+  DEP_FILE = CMakeFiles/c_datastructure.dir/stack_imple_linkedlist.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_datastructure.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_datastructure.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_datastructure
@@ -63,75 +69,13 @@ build CMakeFiles/c_datastructure.dir/main.c.o: C_COMPILER__c_datastructure_unsca
 #############################################
 # Link the executable c_datastructure
 
-build c_datastructure: C_EXECUTABLE_LINKER__c_datastructure_Debug CMakeFiles/c_datastructure.dir/main.c.o
+build c_datastructure: C_EXECUTABLE_LINKER__c_datastructure_Debug CMakeFiles/c_datastructure.dir/main.c.o CMakeFiles/c_datastructure.dir/stack_imple_linkedlist.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/c_datastructure.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = c_datastructure
   TARGET_PDB = c_datastructure.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target main
-
-
-#############################################
-# Order-only phony target for main
-
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
-
-build CMakeFiles/main.dir/main.c.o: C_COMPILER__main_unscanned_Debug /Users/sungyoon/Desktop/c_datastructure/main.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles/main.dir/main.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/main.dir
-  OBJECT_FILE_DIR = CMakeFiles/main.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main
-
-
-#############################################
-# Link the executable main
-
-build main: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
-  OBJECT_DIR = CMakeFiles/main.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = main
-  TARGET_PDB = main.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Out
-
-
-#############################################
-# Order-only phony target for Out
-
-build cmake_object_order_depends_target_Out: phony || CMakeFiles/Out.dir
-
-build CMakeFiles/Out.dir/stack.c.o: C_COMPILER__Out_unscanned_Debug /Users/sungyoon/Desktop/c_datastructure/stack.c || cmake_object_order_depends_target_Out
-  DEP_FILE = CMakeFiles/Out.dir/stack.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Out.dir
-  OBJECT_FILE_DIR = CMakeFiles/Out.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Out
-
-
-#############################################
-# Link the executable Out
-
-build Out: C_EXECUTABLE_LINKER__Out_Debug CMakeFiles/Out.dir/stack.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
-  OBJECT_DIR = CMakeFiles/Out.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Out
-  TARGET_PDB = Out.dbg
 
 
 #############################################
@@ -167,7 +111,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/sungyoon/Desktop/c_datastructure/cmake-build-debug
 
-build all: phony c_datastructure main Out
+build all: phony c_datastructure
 
 # =============================================================================
 # Built-in targets

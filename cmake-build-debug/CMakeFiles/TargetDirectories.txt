@@ -1,5 +1,3 @@
 /Users/sungyoon/Desktop/c_datastructure/cmake-build-debug/CMakeFiles/c_datastructure.dir
-/Users/sungyoon/Desktop/c_datastructure/cmake-build-debug/CMakeFiles/main.dir
-/Users/sungyoon/Desktop/c_datastructure/cmake-build-debug/CMakeFiles/Out.dir
 /Users/sungyoon/Desktop/c_datastructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/sungyoon/Desktop/c_datastructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

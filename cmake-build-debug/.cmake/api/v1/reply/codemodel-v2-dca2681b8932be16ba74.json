@@ -15,9 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1,
-						2
+						0
 					]
 				}
 			],
@@ -32,9 +30,7 @@
 					"name" : "c_datastructure",
 					"targetIndexes" : 
 					[
-						0,
-						1,
-						2
+						0
 					]
 				}
 			],
@@ -42,23 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Out::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Out-Debug-92d21d9d29707136d006.json",
-					"name" : "Out",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "c_datastructure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-c_datastructure-Debug-9aec00732c02954fbdb6.json",
+					"jsonFile" : "target-c_datastructure-Debug-f5d2358ae061d16e79ad.json",
 					"name" : "c_datastructure",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-f52b519ee3742a2ba974.json",
-					"name" : "main",
 					"projectIndex" : 0
 				}
 			]
